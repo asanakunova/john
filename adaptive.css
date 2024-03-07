@@ -1,0 +1,141 @@
+/* 1200-1074 1024-992 992-768 768-576 400*/
+@media (max-width: 1200px) {
+  .post_box {
+    padding: 15px;
+    width: 360px;
+  }
+}
+@media (max-width: 1024px) {
+  .user {
+    gap: 85px;
+  }
+}
+@media (max-width: 992px) {
+  #user {
+    padding: 122px 0 80px 0;
+  }
+  .post_box {
+    padding: 15px;
+    width: 340px;
+  }
+}
+@media (max-width: 768px) {
+  #user {
+    padding: 92px 0 80px 0;
+  }
+  .user_text h1 {
+    width: 330px;
+    font-size: 33px;
+  }
+  .user_text p {
+    width: 350px;
+    font-size: 15px;
+  }
+  .user_text button {
+    width: 175px;
+    font-size: 15px;
+  }
+  .user {
+    gap: 8px;
+  }
+  .post_box {
+    padding: 10px;
+    width: 265px;
+  }
+  .post_box p {
+    font-size: 15px;
+  }
+  .work h3 {
+    font-size: 21px;
+    font-weight: 300;
+  }
+  .work_box img {
+    height: 170px;
+  }
+  .work_box_text h2 {
+    font-size: 24px;
+  }
+  .work_year {
+    gap: 18px;
+  }
+  .work_year span {
+    padding: 3px 5px;
+    font-size: 12px;
+  }
+  .work_box_text p {
+    width: 348px;
+    font-size: 13px;
+  }
+  .work_box_text h2 {
+    font-size: 23px;
+  }
+  #footer {
+    padding: 30px 0;
+  }
+  .footer_icons {
+    gap: 20px;
+  }
+  .footer span {
+    font-size: 30px;
+  }
+  .footer p {
+    font-size: 11px;
+  }
+}
+@media (max-width: 576px) {
+  .header a {
+    display: none;
+  }
+  #user {
+    padding: 21px 0 80px 0;
+  }
+  .user img {
+    width: 200px;
+    margin-right: 20px;
+  }
+  .user {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+  }
+  .post_bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  .post_top {
+    justify-content: center;
+  }
+  .post_top h4 {
+    display: none;
+  }
+  #work {
+    padding: 15px 0;
+  }
+  .work_box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  .work_box img {
+    height: 300px;
+  }
+  .work h3 {
+    text-align: center;
+    font-size: 21px;
+    font-weight: 300;
+  }
+  .footer_icons {
+    gap: 18px;
+  }
+  .footer span {
+    font-size: 25px;
+  }
+  .footer p {
+    font-size: 9px;
+  }
+}
